@@ -1,12 +1,10 @@
 const ORG_MRZLI = "mrzli";
-const ORG_MRZLI_JS_LIBS = "mrzli-js-libs";
 const ORG_MRZLI_VSCODE_EXTENSIONS = "mrzli-vscode-extensions";
 const ORG_MRZLI_GH_ACTIONS = "mrzli-gh-actions";
 const ORG_MRZLI_OTHER = "mrzli-other";
 
 export const ORG_OPTIONS = [
   ORG_MRZLI,
-  ORG_MRZLI_JS_LIBS,
   ORG_MRZLI_VSCODE_EXTENSIONS,
   ORG_MRZLI_GH_ACTIONS,
   ORG_MRZLI_OTHER,
@@ -190,17 +188,16 @@ export const DATA = [
     type: TYPE_EXAMPLE,
     visibility: VISIBILITY_PRIVATE,
   },
-  // mrzli-js-libs
   {
     repo: "js-project-generator",
-    org: ORG_MRZLI_JS_LIBS,
+    org: ORG_MRZLI,
     language: LANGUAGE_JS,
     type: TYPE_TOOL,
     visibility: VISIBILITY_PUBLIC,
   },
   {
     repo: "date-util ",
-    org: ORG_MRZLI_JS_LIBS,
+    org: ORG_MRZLI,
     language: LANGUAGE_JS,
     type: TYPE_LIB,
     visibility: VISIBILITY_PUBLIC,
