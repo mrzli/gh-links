@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 90, 218);
+}
+
+.container {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.filter {
+  grid-column-start: 1;
+}
+
+.content {
+  grid-column-start: 2;
+}
